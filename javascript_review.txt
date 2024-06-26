@@ -1,0 +1,61 @@
+
+object destruction 
+
+    const {a,b} = book;
+
+add key to book
+
+    cons newBook = {...book,newKey:6}
+
+update key in the book
+
+    cons newBook = {...book,existing_key:6}
+
+
+array destruction
+
+    const [a,b,...all_other_elements_in_array] = book_array; 
+
+add element to end array 
+
+    arr_with_new_ele = [...old_arr, new_ele]    
+
+add element to begeining of array 
+
+    arr_with_new_ele = [new_ele,...old_arr]    
+
+
+&& --> (is an if statement retun false,'str' )
+|| --> (default value)
+?? --> (default value)
+
+
+|| vs ?? 
+
+    search
+
+
+optional chaining ? (a.b?.c?)
+
+    use case to provide default vaule if something is null 
+    a.b?.c? || 0
+
+revisit 
+
+    map,fillter,reduce,sort ...
+
+
+immutable cruds 
+
+add
+    const newArrayWithSpread = [...originalArray, newElement];
+
+update
+    const updatedArray = originalArray.map(element => (element === 2 ? 20 : element));
+
+delete
+    const filteredArray = originalArray.filter(element => element !== valueToDelete);
+
+revisit 
+
+    promise vs callback vs await and event loop 

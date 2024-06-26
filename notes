@@ -1,1 +1,51 @@
 
+why react 
+
+    talk about an example with search and fillters 
+
+        the main aim for react to sync data with the UI
+
+        acess and change dom state directly 
+
+        complex js code (spagaitii)
+
+react-steps 
+
+    render
+    click-event
+    update-state
+    rerender
+
+what react 
+
+    compnents (html)
+    decleritve 
+    abstraction of dom (never touch the dom)
+    state-driven (reacts to change of data)
+    library not framework (view-layer)
+
+react hooks 
+
+    useState
+    useEffect
+
+what does strictmode does 
+
+    render component twice 
+
+        to find certain bugs
+        ensure not using outdated code 
+
+
+components 
+
+    starts with uppercase 
+    returns markup or null 
+
+
+never nest components {
+    function ComponentA(){
+        function ComponentB(){...}
+    }
+}
+
