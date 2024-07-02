@@ -49,3 +49,17 @@ never nest components {
     }
 }
 
+==================================================
+
+component consists of
+
+    data
+
+        props ( from parent component )
+        states ( controlled by logic )
+
+    logic
+    appearance
+
+==================================================
+props are immutable to change props you need states
