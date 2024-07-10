@@ -63,3 +63,13 @@ component consists of
 
 ==================================================
 props are immutable to change props you need states
+==================================================
+props object are recived by default 
+props object are recived by default for a component
+when making a list
+
+    listElementCompenet which contains ElementCompnent
+        <SkillList />
+        <Skil />
+
+
