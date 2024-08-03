@@ -64,6 +64,16 @@ component consists of
 
 ==================================================
 props are immutable to change props you need states
+==================================================
+props object are recived by default 
+props object are recived by default for a component
+when making a list
+
+    listElementCompenet which contains ElementCompnent
+        <SkillList />
+        <Skil />
+
+
 props used to pass data from parent to child
 ===================================================
 jsx is converted to create element function call 
