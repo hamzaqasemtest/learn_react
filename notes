@@ -23,6 +23,7 @@ what react
     abstraction of dom (never touch the dom)
     state-driven (reacts to change of data)
     library not framework (view-layer)
+    one way data flow
 
 react hooks 
 
@@ -63,3 +64,27 @@ component consists of
 
 ==================================================
 props are immutable to change props you need states
+props used to pass data from parent to child
+===================================================
+jsx is converted to create element function call 
+
+===================================================
+key (  
+
+    {pizzas.map((pizza) => (
+        <Pizza pizzaObj={pizza} key={pizza.name} />
+    ))}
+
+)
+
+helps React keep track of which items have changed,added or removed
+improve performance 
+
+two items in the list should not have the same keys 
+
+    lead to performance issues
+    lead to correctness issue [todo:how]
+
+    common example (using arr index as key instead should use 'id' within the ele obj)
+    { id: 1, name: "Margherita", price: 10 }
+    why ? assume remove ele form middle of array many states will updated
